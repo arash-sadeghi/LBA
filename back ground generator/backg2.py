@@ -22,3 +22,4 @@ for i in range(0,im_size_x):
         im[i,j]=im[i,j]*255
 
 cv.imwrite("Supervisor//Initial_background.png",im)
+# good bye
