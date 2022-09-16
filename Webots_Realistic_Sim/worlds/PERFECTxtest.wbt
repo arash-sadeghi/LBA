@@ -1,0 +1,513 @@
+#VRML_SIM R2019b utf8
+WorldInfo {
+  basicTimeStep 16
+  optimalThreadCount 6
+}
+Viewpoint {
+  orientation -0.7951710374078884 -0.508536121053062 -0.3302938613598016 1.369807900788387
+  position -1.0315671873870194 5.931235404349617 2.7806756219178084
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+RectangleArena {
+  translation 0 -0.05 0
+  floorSize 2 4
+  wallHeight 0.4
+}
+Robot {
+  children [
+    Display {
+      children [
+        Shape {
+          appearance Appearance {
+            texture ImageTexture {
+              url [
+                "Initial_background.png"
+              ]
+              repeatS FALSE
+              repeatT FALSE
+              filtering 1
+            }
+            textureTransform TextureTransform {
+            }
+          }
+          geometry Plane {
+            size 2 4
+          }
+          castShadows FALSE
+        }
+      ]
+      boundingObject Plane {
+        size 2 4
+      }
+      width 512
+      height 1024
+    }
+  ]
+  controller "Supervisor"
+  supervisor TRUE
+}
+DEF _1 E-puck {
+  hidden position_0_0 0.20096000255069804
+  hidden position_0_1 0.20095999847582996
+  hidden rotation_1 -1 0 0 0.20096000255069815
+  hidden rotation_2 -0.9999999999999999 0 0 0.20095999847582988
+  translation 0 -0.000362339 0.51
+  rotation -0.00029890095067991804 0.9999998349952594 0.0004905789190521394 0
+  name "robot(1)"
+  controller "epuck"
+  camera_fieldOfView 1
+  camera_width 300
+  camera_height 300
+  groundSensorsSlot [
+    Compass {
+      rotation 0 0 1 1.5708
+    }
+    GPS {
+    }
+    DEF rr DistanceSensor {
+      translation -0.01 -0.029 0
+      name "rr"
+      type "infra-red"
+    }
+    DEF ll DistanceSensor {
+      translation -0.01 0.031 0
+      rotation 0 0 1 0
+      name "ll"
+      type "infra-red"
+    }
+  ]
+}
+DEF _2 E-puck {
+  hidden position_0_0 -2.0801825901454844e-12
+  hidden position_0_1 1.7444760974743266e-12
+  hidden linearVelocity_0 -4.029446394829967e-07 0.005151760347791425 4.4730456314445636e-07
+  hidden angularVelocity_0 2.982581654095339e-05 3.7926057685607523e-10 2.6857390808247892e-05
+  translation -1.3186399999560219 -0.0003614372571422754 -0.08590909997292766
+  rotation 4.554453030898816e-06 0.9999999999879048 -1.8567186838789621e-06 2.4121035339148538
+  name "robot(2)"
+  controller "epuck"
+  camera_fieldOfView 1
+  camera_width 300
+  camera_height 300
+  groundSensorsSlot [
+    Compass {
+      rotation 0 0 1 1.5708
+    }
+    GPS {
+    }
+    DEF rr DistanceSensor {
+      translation -0.01 -0.029 0
+      name "rr"
+      type "infra-red"
+    }
+    DEF ll DistanceSensor {
+      translation -0.01 0.031 0
+      rotation 0 0 1 0
+      name "ll"
+      type "infra-red"
+    }
+  ]
+}
+DEF _3 E-puck {
+  hidden position_0_0 -3.5585481882880557e-12
+  hidden position_0_1 2.9693292541291865e-12
+  hidden linearVelocity_0 -7.87165274161525e-07 0.005151760347704131 -6.578468597798753e-07
+  hidden angularVelocity_0 -4.385085377103165e-05 6.462152141826319e-10 5.2483204524615565e-05
+  translation 1.1711399999792038 -0.00036143725655725725 -0.7192329999509816
+  rotation 1.4761231408252598e-05 0.9999999998894141 1.8105005122809886e-06 0.8768736964029173
+  name "robot(3)"
+  controller "epuck"
+  camera_fieldOfView 1
+  camera_width 300
+  camera_height 300
+  groundSensorsSlot [
+    Compass {
+      rotation 0 0 1 1.5708
+    }
+    GPS {
+    }
+    DEF rr DistanceSensor {
+      translation -0.01 -0.029 0
+      name "rr"
+      type "infra-red"
+    }
+    DEF ll DistanceSensor {
+      translation -0.01 0.031 0
+      rotation 0 0 1 0
+      name "ll"
+      type "infra-red"
+    }
+  ]
+}
+DEF _4 E-puck {
+  hidden position_0_0 -6.220790797094711e-12
+  hidden position_0_1 5.191956727422165e-12
+  hidden linearVelocity_0 5.55027689395967e-07 0.005151760347407525 1.7070311049577985e-06
+  hidden angularVelocity_0 0.00011380073771449407 1.1307763238449293e-09 -3.700965440453414e-05
+  translation -1.3325999999592875 -0.00036143725471792475 0.30166199995954485
+  rotation 1.8671706757948101e-06 0.9999999999493421 -9.8908886446182e-06 -2.8259632782032935
+  name "robot(4)"
+  controller "epuck"
+  camera_fieldOfView 1
+  camera_width 300
+  camera_height 300
+  groundSensorsSlot [
+    Compass {
+      rotation 0 0 1 1.5708
+    }
+    GPS {
+    }
+    DEF rr DistanceSensor {
+      translation -0.01 -0.029 0
+      name "rr"
+      type "infra-red"
+    }
+    DEF ll DistanceSensor {
+      translation -0.01 0.031 0
+      rotation 0 0 1 0
+      name "ll"
+      type "infra-red"
+    }
+  ]
+}
+DEF _5 E-puck {
+  hidden position_0_0 -2.2192781847425486e-12
+  hidden position_0_1 1.8534334056566694e-12
+  hidden linearVelocity_0 4.953255732160943e-07 0.0051517603477933965 4.068576351768464e-07
+  hidden angularVelocity_0 2.711802857526119e-05 4.037811755098518e-10 -3.3026977334707317e-05
+  translation -1.3572199999753585 -0.0003614372571012058 0.9507599999544168
+  rotation 1.7694669289528382e-06 0.9999999999862569 -4.935110340100064e-06 -2.2548936926264114
+  name "robot(5)"
+  controller "epuck"
+  camera_fieldOfView 1
+  camera_width 300
+  camera_height 300
+  groundSensorsSlot [
+    Compass {
+      rotation 0 0 1 1.5708
+    }
+    GPS {
+    }
+    DEF rr DistanceSensor {
+      translation -0.01 -0.029 0
+      name "rr"
+      type "infra-red"
+    }
+    DEF ll DistanceSensor {
+      translation -0.01 0.031 0
+      rotation 0 0 1 0
+      name "ll"
+      type "infra-red"
+    }
+  ]
+}
+DEF _6 E-puck {
+  hidden position_0_0 -2.2238006974576183e-12
+  hidden position_0_1 1.850696284847667e-12
+  hidden linearVelocity_0 4.953255752918529e-07 0.005151760347791001 4.068576314495588e-07
+  hidden angularVelocity_0 2.711802861575317e-05 4.037824742884481e-10 -3.302697740412239e-05
+  translation -1.3664299999753597 -0.00036143725710127 0.7726089999544165
+  rotation 1.769466937921829e-06 0.9999999999862567 -4.935110322497576e-06 -2.2548936926264256
+  name "robot(6)"
+  controller "epuck"
+  camera_fieldOfView 1
+  camera_width 300
+  camera_height 300
+  groundSensorsSlot [
+    Compass {
+      rotation 0 0 1 1.5708
+    }
+    GPS {
+    }
+    DEF rr DistanceSensor {
+      translation -0.01 -0.029 0
+      name "rr"
+      type "infra-red"
+    }
+    DEF ll DistanceSensor {
+      translation -0.01 0.031 0
+      rotation 0 0 1 0
+      name "ll"
+      type "infra-red"
+    }
+  ]
+}
+DEF _7 E-puck {
+  hidden position_0_0 -2.2177524100170725e-12
+  hidden position_0_1 1.856344948011944e-12
+  hidden linearVelocity_0 4.953255733723495e-07 0.005151760347790997 4.068576293160961e-07
+  hidden angularVelocity_0 2.711802846285131e-05 4.0378996553541985e-10 -3.302697716035926e-05
+  translation 1.4227900000246414 -0.0003614372571011087 0.6343099999544166
+  rotation 1.7694669312992313e-06 0.9999999999862568 -4.935110332720687e-06 -2.2548936926263927
+  name "robot(7)"
+  controller "epuck"
+  camera_fieldOfView 1
+  camera_width 300
+  camera_height 300
+  groundSensorsSlot [
+    Compass {
+      rotation 0 0 1 1.5708
+    }
+    GPS {
+    }
+    DEF rr DistanceSensor {
+      translation -0.01 -0.029 0
+      name "rr"
+      type "infra-red"
+    }
+    DEF ll DistanceSensor {
+      translation -0.01 0.031 0
+      rotation 0 0 1 0
+      name "ll"
+      type "infra-red"
+    }
+  ]
+}
+DEF _8 E-puck {
+  hidden position_0_0 -2.2174965720027254e-12
+  hidden position_0_1 1.852555194036491e-12
+  hidden linearVelocity_0 4.953255846762659e-07 0.005151760347792984 4.068576363266052e-07
+  hidden angularVelocity_0 2.711802884004692e-05 4.038264500464229e-10 -3.3026977841364736e-05
+  translation 1.341270000024642 -0.00036143725710120755 1.0192099999544164
+  rotation 1.769466914958593e-06 0.9999999999862568 -4.935110373379447e-06 -2.254893692626431
+  name "robot(8)"
+  controller "epuck"
+  camera_fieldOfView 1
+  camera_width 300
+  camera_height 300
+  groundSensorsSlot [
+    Compass {
+      rotation 0 0 1 1.5708
+    }
+    GPS {
+    }
+    DEF rr DistanceSensor {
+      translation -0.01 -0.029 0
+      name "rr"
+      type "infra-red"
+    }
+    DEF ll DistanceSensor {
+      translation -0.01 0.031 0
+      rotation 0 0 1 0
+      name "ll"
+      type "infra-red"
+    }
+  ]
+}
+DEF _9 E-puck {
+  hidden position_0_0 -2.231051426124319e-12
+  hidden position_0_1 1.8532158420965947e-12
+  hidden linearVelocity_0 4.953255724082321e-07 0.005151760347790815 4.0685763633945373e-07
+  hidden angularVelocity_0 2.7118028658929945e-05 4.038203654890094e-10 -3.3026977613309755e-05
+  translation 1.2781800000246422 -0.00036143725710115204 0.06801849995441597
+  rotation 1.7694669362966871e-06 0.9999999999862569 -4.935110329123648e-06 -2.2548936926264087
+  name "robot(9)"
+  controller "epuck"
+  camera_fieldOfView 1
+  camera_width 300
+  camera_height 300
+  groundSensorsSlot [
+    Compass {
+      rotation 0 0 1 1.5708
+    }
+    GPS {
+    }
+    DEF rr DistanceSensor {
+      translation -0.01 -0.029 0
+      name "rr"
+      type "infra-red"
+    }
+    DEF ll DistanceSensor {
+      translation -0.01 0.031 0
+      rotation 0 0 1 0
+      name "ll"
+      type "infra-red"
+    }
+  ]
+}
+DEF _10 E-puck {
+  hidden position_0_0 -2.2231482482427635e-12
+  hidden position_0_1 1.8551540549619452e-12
+  hidden linearVelocity_0 4.953255756138421e-07 0.005151760347790633 4.068576333514923e-07
+  hidden angularVelocity_0 2.7118028703244805e-05 4.0380708367997625e-10 -3.3026977362002045e-05
+  translation 1.3739800000246414 -0.00036143725710116245 1.7051999999544165
+  rotation 1.7694669221331856e-06 0.999999999986257 -4.935110353948301e-06 -2.25489369262643
+  name "robot(10)"
+  controller "epuck"
+  camera_fieldOfView 1
+  camera_width 300
+  camera_height 300
+  groundSensorsSlot [
+    Compass {
+      rotation 0 0 1 1.5708
+    }
+    GPS {
+    }
+    DEF rr DistanceSensor {
+      translation -0.01 -0.029 0
+      name "rr"
+      type "infra-red"
+    }
+    DEF ll DistanceSensor {
+      translation -0.01 0.031 0
+      rotation 0 0 1 0
+      name "ll"
+      type "infra-red"
+    }
+  ]
+}
+DEF QR1 Solid {
+  translation 3.9568e-06 0.119841 -1.98
+  rotation 1 -2e-06 0 1.570002
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "QR1.png"
+          ]
+        }
+      }
+      geometry Plane {
+        size 0.3 0.3
+      }
+    }
+  ]
+}
+DEF QR2 Solid {
+  translation 0.973764 0.12 -1
+  rotation 0.57719622858245 -0.5771982285832421 0.5776562287646203 2.093936
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "QR2.png"
+          ]
+        }
+      }
+      geometry Plane {
+        size 0.3 0.3
+      }
+    }
+  ]
+  name "solid(1)"
+}
+DEF QR3 Solid {
+  translation 0.973764 0.12 -3.20665e-08
+  rotation 0.57719622858245 -0.5771982285832421 0.5776562287646203 2.093936
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "QR3.png"
+          ]
+        }
+      }
+      geometry Plane {
+        size 0.3 0.3
+      }
+    }
+  ]
+  name "solid(2)"
+}
+DEF QR4 Solid {
+  translation 0.973764 0.12 1
+  rotation 0.57719622858245 -0.5771982285832421 0.5776562287646203 2.093936
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "QR4.png"
+          ]
+        }
+      }
+      geometry Plane {
+        size 0.3 0.3
+      }
+    }
+  ]
+  name "solid(3)"
+}
+DEF QR5 Solid {
+  translation 2.854e-08 0.12 1.97001
+  rotation -9.999996115897263e-07 -0.7068257254615199 0.7073877252432333 3.1415919999999997
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "QR5.png"
+          ]
+        }
+      }
+      geometry Plane {
+        size 0.3 0.3
+      }
+    }
+  ]
+  name "solid(4)"
+}
+DEF QR6 Solid {
+  translation -0.96624 0.12 1
+  rotation -0.5771978951609584 -0.5771958951613216 0.5776568950775882 -2.093937307179586
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "QR6.png"
+          ]
+        }
+      }
+      geometry Plane {
+        size 0.3 0.3
+      }
+    }
+  ]
+  name "solid(5)"
+}
+DEF QR7 Solid {
+  translation -0.976236 0.12 1.06094e-08
+  rotation -0.5771978951609584 -0.5771958951613216 0.5776568950775882 -2.093937307179586
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "QR7.png"
+          ]
+        }
+      }
+      geometry Plane {
+        size 0.3 0.3
+      }
+    }
+  ]
+  name "solid(6)"
+}
+DEF QR8 Solid {
+  translation -0.986236 0.12 -1
+  rotation -0.5771978951609584 -0.5771958951613216 0.5776568950775882 -2.093937307179586
+  children [
+    Shape {
+      appearance Appearance {
+        texture ImageTexture {
+          url [
+            "QR8.png"
+          ]
+        }
+      }
+      geometry Plane {
+        size 0.3 0.3
+      }
+    }
+  ]
+  name "solid(7)"
+}

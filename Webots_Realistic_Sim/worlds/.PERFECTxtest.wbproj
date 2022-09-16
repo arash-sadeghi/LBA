@@ -1,0 +1,21 @@
+Webots Project File version R2019b
+perspectives: 000000ff00000000fd000000020000000000000069000003b8fc0100000002fb0000001e00480074006d006c0052006f0062006f007400570069006e0064006f00770000000000000000690000000000000000fb0000001a0044006f00630075006d0065006e0074006100740069006f006e0000000000ffffffff0000006900ffffff00000001000002b4000003b8fc0200000001fc00000016000003b80000005e0100001efa000000000100000002fb0000000e0043006f006e0073006f006c00650100000000ffffffff0000006900fffffffb0000001400540065007800740045006400690074006f007201000006640000011c0000007500ffffff000004ca000003b800000001000000020000000100000008fc00000000
+simulationViewPerspectives: 000000ff000000010000000200000100000005620100000002010000000100
+sceneTreePerspectives: 000000ff0000000100000002000000c0000000fa0100000002010000000200
+maximizedDockId: -1
+centralWidgetVisible: 1
+selectionDisabled: 0
+viewpointLocked: 0
+orthographicViewHeight: 1
+textFiles: -1
+renderingDevicePerspectives: robot(1):camera;0;1;0.00103306;0
+renderingDevicePerspectives: robot(9):camera;0;1;0;0
+renderingDevicePerspectives: robot(8):camera;0;1;0;0
+renderingDevicePerspectives: robot(6):camera;0;1;0;0
+renderingDevicePerspectives: robot(10):camera;0;1;0;0
+renderingDevicePerspectives: robot(2):camera;0;1;0;0
+renderingDevicePerspectives: robot(7):camera;0;1;0;0
+renderingDevicePerspectives: robot:display;0;0.87207;0;0
+renderingDevicePerspectives: robot(4):camera;0;1;0;0
+renderingDevicePerspectives: robot(5):camera;0;1;0;0
+renderingDevicePerspectives: robot(3):camera;0;1;0;0
